@@ -3,7 +3,7 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  hello-cloud:
-    lang: node
-    handler: ./hello-cloud
-    image: zhenfeng-zhu/hello-cloud:latest
+  hello-go:
+    lang: go
+    handler: ./hello-go
+    image: zhenfeng-zhu/hello-go:latest
